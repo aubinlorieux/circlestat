@@ -1,7 +1,7 @@
 # circlestat
 A simple animated circle chart library based on Raphael.JS
 
-![Preview](previews/screenshot.png "Preview")
+![Preview](./previews/screenshot1.png "Preview")
 
 ## Initialization
 
