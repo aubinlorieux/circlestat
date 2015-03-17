@@ -1,6 +1,8 @@
 # circlestat
 A simple animated circle chart library based on Raphael.JS
 
+Browser compatibility: Firefox 3.0+, Safarie 3.0+, Chrome 5.0+, Opera 9.5+ and Internet Explorer 6.0+;
+
 ![Preview](./previews/screenshot1.png "Preview")
 
 ## Initialization
@@ -31,6 +33,7 @@ window.onload = (function() {
     };
 
     var myStat = new CircleStat(params);
+    myStat.draw();
 
 })();
 ```
