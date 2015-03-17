@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/circlestat.css">
+    <script type="text/javascript" src="../vendors/raphael-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../lib/circlestat.js"></script>
+  </head>
+  <body>
+    
+    <div id="holder" class="circleStat">
+      <span class="circleStat-pourcent">55</span>
+      <span class="circleStat-title">Externe</span>
+    </div>
+
+    <div id="container">
+
+    </div>
+
+    <!-- Script -->
+    <script type="text/javascript">
+
+      window.onload = function() {
+
+        var params = {
+          pourcent: 65
+        };
+
+        var myStat = new CircleStat(params);
+    };
+
+  </script>
+
+  </body>
+
+</html>

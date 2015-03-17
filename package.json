@@ -1,0 +1,27 @@
+{
+  "name": "circlestat",
+  "version": "0.1.0",
+  "description": "A simple circle stat library for raphael",
+  "main": "./lib/cirlestat.min.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aubinlorieux/circlestat"
+  },
+  "keywords": [
+    "raphael.js",
+    "charts",
+    "circle"
+  ],
+  "author": "Aubin LORIEUX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aubinlorieux/circlestat/issues"
+  },
+  "homepage": "https://github.com/aubinlorieux/circlestat"
+}

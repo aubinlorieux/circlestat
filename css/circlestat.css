@@ -1,0 +1,19 @@
+.circleStat {
+  position: relative;
+}
+
+.circleStat-title {
+  position: absolute;
+  top: 81px;
+  left: 42px;
+  font-size: 22px;
+}
+
+.circleStat-pourcent {
+  position: absolute;
+  top: 38px;
+  left: 51px;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
