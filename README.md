@@ -14,27 +14,25 @@ A simple animated circle chart library based on Raphael.JS
 
 ```html
 <div id="circleStat-views" class="circleStat">
-    <span class="circleStat-title">Views</span>
     <span class="circleStat-pourcent">54</span>
+    <span class="circleStat-title">Views</span>
 </div>
 ```
 
 ## Javascript
 
 ```js
-<script>
-    window.onload = (function() {
-        
-        var params = {
-            container: 'circleStat-views'
-            strokeWidth: '10',
-            strokeColor: '#1E8548'
-        };
+window.onload = (function() {
+    
+    var params = {
+        container: 'circleStat-views'
+        strokeWidth: '10',
+        strokeColor: '#1E8548'
+    };
 
-        var myStat = new CircleStat(params);
+    var myStat = new CircleStat(params);
 
-    })();
-</script>
+})();
 ```
 
 ## Parameters

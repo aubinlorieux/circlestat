@@ -18,18 +18,18 @@
     <!-- Script -->
     <script type="text/javascript">
 
-      window.onload = function() {
+      window.onload = (function() {
 
-        var params = {
-          container: 'circleStat-views',
-          pourcent: 65,
-          strokeColor: '#1E8548'
-        };
+          var params = {
+            container: 'circleStat-views',
+            pourcent: 65,
+            strokeColor: '#1E8548'
+          };
 
-        var myStat = new CircleStat(params);
-    };
+          var myStat = new CircleStat(params);
+      })();
 
-  </script>
+    </script>
 
   </body>
 
